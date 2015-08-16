@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: $COLOR_DEFAULT;
+    font-family: $FONT_PLAYFAIR;
+    font-weight: $FONT_WEIGHT_NORMAL;
+    font-size: $FONT_SIZE_DEFAULT;
+    line-height: 1.5;
+    background-color: $COLOR_GREY;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $COLOR_DEFAULT;
+    transition: 500ms all ease;
+}
+
+a:hover {
+    color: $COLOR_LIGHT_GREY;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

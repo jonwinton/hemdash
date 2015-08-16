@@ -1,0 +1,13 @@
+$_OFFSET: 30px;
+.blocks {
+    margin: ($_OFFSET * -1) 0 0 ($_OFFSET * -1);
+    font-size: 0;
+}
+
+.blocks > * {
+    vertical-align: top;
+    display: inline-block;
+    padding: $_OFFSET 0 0 $_OFFSET;
+    font-size: $FONT_SIZE_DEFAULT;
+    width: 100%;
+}

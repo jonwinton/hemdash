@@ -1,0 +1,36 @@
+/* --------------------------------------------------------
+    Colors
+/-------------------------------------------------------- */
+$COLOR_DEFAULT: #403F3F;
+$COLOR_ACCENT: #FAFFAF;
+$COLOR_GREY: #E7E7E7; 
+$COLOR_LIGHT_GREY: #A6A7A7; 
+
+$COLOR_EDUCATION: #75FFFB;
+$COLOR_SPORTS: #FFFFFF;
+$COLOR_JUSTICE: #EC88FF;
+$COLOR_TECH: #A4FF79;
+$COLOR_POLITICS: #FFABDC;
+$COLOR_MISC: #F7F903;
+
+/* --------------------------------------------------------
+    Fonts
+/-------------------------------------------------------- */
+// Font Families
+$FONT_FJALLA:'Fjalla One', sans-serif; 
+$FONT_PLAYFAIR: 'Playfair Display', serif;
+
+// Font Weights
+$FONT_WEIGHT_NORMAL: 300;
+$FONT_WEIGHT_BOLD: 700;
+
+// Font Sizes
+$FONT_SIZE_DEFAULT: 16px;
+
+/* --------------------------------------------------------
+    Measurements
+/-------------------------------------------------------- */
+$MAX_WIDTH: 1000px;
+
+$BREAKPOINT_SM: 480px;
+$BREAKPOINT_MD: 768px;

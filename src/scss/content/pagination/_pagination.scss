@@ -1,0 +1,42 @@
+.pagination {
+    text-align: center;
+    margin-top: 40px;
+    font-size: $FONT_SIZE_DEFAULT + 2;
+    border-top: 2px solid rgba($COLOR_DEFAULT, 0.1);
+    padding-top: 15px;
+}
+
+.pagination > * {
+    vertical-align: middle;
+}
+
+.pagination > * + * {
+    margin-left: 10px;
+}
+
+.next.page-numbers,
+.prev.page-numbers {
+    font-size: $FONT_SIZE_DEFAULT - 3;
+}
+
+.next.page-numbers:before,
+.prev.page-numbers:before {
+    content: '';
+}
+
+.next.page-numbers:after,
+.prev.page-numbers:after {
+    content: '';
+}
+
+a.page-numbers:before {
+    content: '[';
+    color: $COLOR_ACCENT;
+    margin-right: 3px;
+}
+
+a.page-numbers:after {
+    content: ']';
+    color: $COLOR_ACCENT;
+    margin-left: 3px;
+}

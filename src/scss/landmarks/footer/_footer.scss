@@ -1,0 +1,18 @@
+.footer {
+    width: 100%;
+    display: table;
+    border-top: 2px solid $COLOR_ACCENT;
+    margin-top: 20px;
+    padding: 10px 5px 10px;
+    font-size: 13px;
+}
+
+.footer > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer-right {
+    text-align: right;
+    font-style: italic;
+}

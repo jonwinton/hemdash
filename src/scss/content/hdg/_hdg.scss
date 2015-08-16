@@ -1,0 +1,10 @@
+.hdg {
+    font-family: $FONT_FJALLA;    
+}
+
+@for $i from 0 through 5 {
+    $size: 32 - (4 * $i);
+    .hdg_#{$i + 1} {
+        font-size: #{$size}px;
+    }
+}

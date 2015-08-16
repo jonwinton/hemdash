@@ -1,0 +1,28 @@
+.wysiwyg {
+    overflow: hidden;
+}
+
+.wysiwyg {
+    @for $i from 0 through 5 {
+        $size: 32 - (4 * $i);
+        h#{$i + 1} {
+            font-family: $FONT_FJALLA;
+            font-size: #{$size}px;
+            line-height: 1.8;
+            font-weight: $FONT_WEIGHT_BOLD;
+        }
+    }
+    p {
+        min-height: 1px;
+        line-height: 1.8;
+    }
+    p + p {
+        margin-top: 10px;
+    }
+    a {
+        border-bottom: 3px solid $COLOR_ACCENT;
+    }
+    a:hover {
+        border-bottom-width: 5px;
+    }
+}

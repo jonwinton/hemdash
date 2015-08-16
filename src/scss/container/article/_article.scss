@@ -1,0 +1,45 @@
+$_SMALL_FONT: 13px;
+
+.article {
+    display: block;
+    border-left: 2px solid $COLOR_ACCENT;
+    padding: 10px 0 10px 20px;
+}
+
+.article > * + * {
+    margin-top: 5px;
+}
+
+.article-meta {
+    font-size: $_SMALL_FONT;
+}
+
+.article-source {
+    font-size: $_SMALL_FONT;
+    font-style: italic;
+}
+
+.mix-article_education {
+    border-left-color: $COLOR_EDUCATION;
+}
+
+.mix-article_justice {
+    border-left-color: $COLOR_JUSTICE;
+}
+
+.mix-article_sports {
+    border-left-color: $COLOR_SPORTS;
+}
+
+.mix-article_politics {
+    border-left-color: $COLOR_POLITICS;
+}
+
+.mix-article_tech {
+    border-left-color: $COLOR_TECH;
+}
+
+.mix-article_misc {
+    border-left-color: $COLOR_MISC;
+}
+

@@ -1,0 +1,16 @@
+.wpcf7-submit {
+    @include appearance;
+    border: 1px solid $COLOR_DEFAULT;
+    background: transparent;
+    padding: 12px;
+    width: 100%;
+    font-size: $FONT_SIZE_DEFAULT;
+    margin-top: 15px;
+    font-family: $FONT_FJALLA;
+    transition: 500ms all ease;
+    cursor: pointer;
+}
+.wpcf7-submit:hover {
+    border-color: $COLOR_ACCENT;
+    background: $COLOR_ACCENT;
+}

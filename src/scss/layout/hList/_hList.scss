@@ -1,0 +1,22 @@
+$_SPACING: 10px;
+
+.hList { 
+    font-size: 0;
+}
+
+.hList > * {
+    display: inline-block;
+    font-size: $FONT_SIZE_DEFAULT;
+}
+
+.hList > * + * {
+    margin-left: $_SPACING;
+}
+
+.hList_md > * + * {
+    margin-left: $_SPACING * 2;
+}
+
+.hList_lg > * + * {
+    margin-left: $_SPACING * 2;
+}
