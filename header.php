@@ -24,8 +24,8 @@
 		<header role="banner" class="header">
 			<div class="header-top">
 				<div class="header-top-title">
-					<h1 class="hdg hdg_2">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<h1 class="hdg hdg_1">
+						<a href="<?php print esc_url( home_url( '/' ) ); ?>">
 							<?php bloginfo( 'name' ); ?>
 						</a>
 					</h1>

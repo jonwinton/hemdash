@@ -4,10 +4,15 @@ $_SMALL_FONT: 13px;
     display: block;
     border-left: 2px solid $COLOR_ACCENT;
     padding: 10px 0 10px 20px;
+    overflow: hidden;
 }
 
 .article > * + * {
     margin-top: 5px;
+}
+
+.article-excerpt {
+    font-size: $_SMALL_FONT + 1;
 }
 
 .article-meta {

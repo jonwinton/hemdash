@@ -13,20 +13,25 @@
         </main>
     	<footer role="contentinfo" class="footer">
             <div class="footer-left">
-                <ul class="hList">
+                <ul class="hList hList_md">
                     <li>
-                        <a href="https://twitter.com/hemdash" target="_blank">
-                            <span class="dashicons-before dashicons-twitter"></span>
+                        <a href="//twitter.com/hemdash" target="_blank">
+                            <span class="icon icon-twitter"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="//instagram.com/hemunguia/" target="_blank">
+                            <span class="icon icon-instagram"></span>
                         </a>
                     </li>
                     <li>
                         <a href="http://fivethirtyeight.com/contributors/hayley-munguia/feed/" target="_blank">
-                            <span class="dashicons-before dashicons-rss"></span>
+                            <span class="icon icon-feed"></span>
                         </a>
                     </li>
                     <li>
                         <a href="/contact">
-                            <span class="dashicons-before dashicons-email-alt"></span>
+                            <span class="icon icon-envelope"></span>
                         </a>
                     </li>
                 </ul>

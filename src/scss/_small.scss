@@ -18,16 +18,19 @@
     Container
 /-------------------------------------------------------- */
 @import "container/article/_article";
+@import "container/box/_box";
 @import "container/intro/_intro";
 
 /* --------------------------------------------------------
     Content
 /-------------------------------------------------------- */
-@import "content/hdg/_hdg";
 @import "content/formElements/_form";
 @import "content/formElements/_input";
 @import "content/formElements/_label";
 @import "content/formElements/_submit";
 @import "content/formElements/_textarea";
+@import "content/hdg/_hdg";
+@import "content/hr/_hr";
+@import "content/icon/_icon";
 @import "content/pagination/_pagination";
 @import "content/wysiwyg/_wysiwyg";

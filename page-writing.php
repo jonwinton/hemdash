@@ -13,20 +13,35 @@
  */
 
 get_header(); ?>
-
     <?php while ( have_posts() ) : the_post(); ?>
         <div class="section">
             <?php // Content from the articles page ?>
             <?php get_template_part( 'template-parts/content', 'intro' ); ?>
         </div>
-    
+        <div class="hr"></div>
         <div class="section">
-            <?php // Listing of articles ?>
-            <?php get_template_part( 'template-parts/content', 'articles' ); ?>
+            <div class="box">
+                <div class="box-hd">
+                    <h2 class="hdg hdg_3">Featured Writing</h2>
+                </div>
+                <div class="box-bd">
+                    <?php // Content from the articles page ?>
+                    <?php get_template_part( 'template-parts/content', 'featured' ); ?>
+                </div>
+            </div>
         </div>
-
+        <div class="hr"></div>
+        <div class="section">
+            <div class="box">
+                <div class="box-hd">
+                    <h2 class="hdg hdg_3">All Writing</h2>
+                </div>
+                <div class="box-bd">
+                    <?php // Listing of articles ?>
+                    <?php get_template_part( 'template-parts/content', 'articles' ); ?>
+                </div>
+            </div>
+        </div>
     <?php endwhile; // End of the loop. ?>
-
-
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>
