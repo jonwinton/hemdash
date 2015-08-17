@@ -31,7 +31,7 @@
 					</h1>
 				</div>
 				<div class="header-top-desc">
-					Journalist &amp; Explorer
+					Journalist &amp; Spreadsheet Wrangler
 				</div>
 			</div>
 			<div class="header-bottom">
