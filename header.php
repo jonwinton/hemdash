@@ -29,6 +29,7 @@
 <meta property="og:site_name" content="<?php bloginfo( 'name' ); ?>"/>
 <!-- <meta property="og:image" content=""/> -->
 <meta property="og:type" content="blog"/>
+<meta property="og:description" content="Hayley Munguia is a data reporter and social media editor at FiveThirtyEight."/>
 <!-- /OG Tags -->
 
 
