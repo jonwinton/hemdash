@@ -15,6 +15,23 @@
 <title><?php print get_bloginfo( 'name' ); ?></title>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Twitter META Tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="<?php the_permalink(); ?>">
+<meta name="twitter:site" content="@hemdash">
+<meta name="twitter:creator" content="@hemdash">
+<!-- /Twitter META Tags -->
+
+<!-- OG Tags -->
+<meta property="og:title" content="<?php bloginfo( 'name' ); ?> | <?php the_title(); ?>"/>
+<meta property="og:url" content="<?php the_permalink(); ?>"/>
+<meta property="og:site_name" content="<?php bloginfo( 'name' ); ?>"/>
+<!-- <meta property="og:image" content=""/> -->
+<meta property="og:type" content="blog"/>
+<!-- /OG Tags -->
+
+
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
@@ -32,7 +49,7 @@
 					</h1>
 				</div>
 				<div class="header-top-desc">
-					Journalist &amp; Spreadsheet Wrangler
+					<?php bloginfo( 'description' ); ?>
 				</div>
 			</div>
 			<div class="header-bottom">
