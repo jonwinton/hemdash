@@ -12,8 +12,6 @@ wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 
-
-assets/
 node_modules/
 src/vendor/
 build-env.js
