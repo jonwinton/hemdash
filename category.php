@@ -17,14 +17,10 @@ get_header(); ?>
     <?php if ( have_posts() ) : ?>
         <div class="section">
             <div>
-                <div>
-                    <h2 class="hdg hdg_1">
-                        <?php single_cat_title(); ?>
-                    </h2>
-                </div>
-                <div>
-                    <?php the_archive_description(); ?>
-                </div>
+                <h2 class="hdg hdg_1">
+                    <?php single_cat_title(); ?>
+                </h2>
+                <?php //the_archive_description(); ?>
             </div>
         </div>
         <div class="section">

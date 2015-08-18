@@ -21,8 +21,10 @@
     }
     a {
         border-bottom: 3px solid $COLOR_ACCENT;
+        border-bottom: 2px solid $COLOR_ACCENT;
     }
     a:hover {
         border-bottom-width: 5px;
+        border-bottom-width: 4px;
     }
 }

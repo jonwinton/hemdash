@@ -14,5 +14,7 @@
             <?php the_title(); ?>            
         </h2>
     </div>
-    <div class="intro-bd"><?php the_content(); ?></div>
+    <div class="intro-bd">
+        <div class="wysiwyg"><?php the_content(); ?></div>
+    </div>
 </div>
