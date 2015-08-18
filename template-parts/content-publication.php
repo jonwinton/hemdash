@@ -7,6 +7,7 @@
  * @package hemdash
  */
 
+$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 $id = get_the_ID();
 
 $args = array(
@@ -19,7 +20,9 @@ $args = array(
             'key'     => 'publication',
             'value'   => $id
         )
-    )
+    ),
+    'posts_per_page' => 10,
+    'paged' => $paged
 );
 
 // The Query
@@ -35,8 +38,25 @@ if ( $the_query->have_posts() ) {
         get_template_part( 'partials/partial', 'writing' );
 
     }
-    echo '</ul>';
-} else {
+    echo '</ul>'; ?>
+
+<div class="pagination">
+    <?php
+        $big = 999999999; // need an unlikely integer
+        $pagArg =  array(
+            'base'      => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+            'format'    => '?paged=%#%',
+            'current'   => max( 1, get_query_var('paged') ),
+            'total'     => $the_query->max_num_pages,
+            'prev_text'          => __('< Previous'),
+            'next_text'          => __('Next >'),
+        );
+        
+        print paginate_links( $pagArg );
+    ?>
+</div>
+
+<?php } else {
     get_template_part( 'template-parts/content', 'none' );
 }
 /* Restore original Post Data */
