@@ -25,7 +25,7 @@ $the_query = new WP_Query( $args );
 
 // The Loop
 if ( $the_query->have_posts() ) {
-    echo '<ul>';
+    echo '<ul class="vList">';
     while ( $the_query->have_posts() ) {
         $the_query->the_post();
 
