@@ -27,4 +27,7 @@
         border-bottom-width: 5px;
         border-bottom-width: 4px;
     }
+    img.border {
+        border: 1px solid $COLOR_ACCENT;
+    }
 }
