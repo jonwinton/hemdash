@@ -1,0 +1,18 @@
+.featured {
+    font-size: 0;
+}
+
+.featured > * {
+    display: inline-block;
+    font-size: $FONT_SIZE_DEFAULT;
+    vertical-align: top;
+}
+
+.featured-left {
+    padding-right: 20px;
+    width: 30%;
+}
+
+.featured-right {
+    width: 70%;
+}

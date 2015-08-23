@@ -1,0 +1,54 @@
+$_SMALL_FONT: 13px;
+
+.featured {
+    display: block;
+    border-left: 2px solid $COLOR_ACCENT;
+    padding: 10px 0 10px 20px;
+    font-size: 0;
+}
+
+.featured-left-img img {
+    border: 1px solid $COLOR_ACCENT;
+}
+
+.featured-right > * + * {
+    margin-top: 5px;
+}
+
+.featured-right-excerpt {
+    font-size: $_SMALL_FONT + 1;
+}
+
+.featured-right-meta {
+    font-size: $_SMALL_FONT;
+}
+
+.featured-right-source {
+    font-size: $_SMALL_FONT;
+    font-style: italic;
+}
+
+.mix-featured_education {
+    border-left-color: $COLOR_EDUCATION;
+}
+
+.mix-featured_justice {
+    border-left-color: $COLOR_JUSTICE;
+}
+
+.mix-featured_sports {
+    border-left-color: $COLOR_SPORTS;
+}
+
+.mix-featured_politics {
+    border-left-color: $COLOR_POLITICS;
+}
+
+.mix-featured_tech {
+    border-left-color: $COLOR_TECH;
+}
+
+.mix-featured_misc {
+    border-left-color: $COLOR_MISC;
+}
+
